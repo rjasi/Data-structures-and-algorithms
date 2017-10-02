@@ -1,0 +1,14 @@
+def fib (n)
+	if (n ==1)
+		return [0,1]
+	else
+		x = fib(n - 1)
+		return x.push(x[n-1] + x[n-2])
+	end
+
+
+end
+
+
+print fib (10)
+ 
